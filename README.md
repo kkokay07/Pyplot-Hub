@@ -1,4 +1,4 @@
-# Pyplot-hub 🎨📊 (under construction)
+# Pyplot-hub 🎨📊 (partially built)
 
 Welcome to **pyplot-hub** – your **one-stop shop** for quick, easy, and beautiful plots in Python! Whether you’re a data scientist, analyst, or just a curious soul trying to visualize your data, this repo is your go-to place. Here, you’ll find simple Python scripts to create the most common plots, all ready for you to use, customize, and explore! 🚀
 

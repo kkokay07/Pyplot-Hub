@@ -26,20 +26,16 @@ pip install matplotlib pandas
 ```
 
 ## Input File Format
-
+Example of Input Format: 
+Series    Pop1    Pop2    Pop3    Pop4    Pop5
+1            242.9   34.1    39.7    206.4   488.4
+2            242.9   34.1    39.7    206.4   488.4
+3            242.9   34.1    39.7    206.4   488.4
 The input file should be a tab-separated text file (.txt) with:
 - First row containing column headers
 - First column containing x-axis values (e.g., generations, time points)
 - Subsequent columns containing y-axis values for different series
 
-Example input file format:
-```
-Generation    ASI     AST     AMI     AfT
-1            242.916  34.152  39.7611 206.445
-2            242.916  34.152  39.7611 206.445
-3            242.916  34.152  39.7611 206.445
-4            242.916  19.5424 39.7611 206.445
-```
 
 ## Usage
 
@@ -71,21 +67,7 @@ The script generates:
   - Clear axis labels and title
   - Professional formatting suitable for publications
 
-## Usage:
-```bash
-python3 lineplot.py --input data.txt --title "Your Title Goes Here" --dpi 600
-```
-Example of Input Format: 
-Series    Pop1    Pop2    Pop3    Pop4    Pop5
-1            242.9   34.1    39.7    206.4   488.4
-2            242.9   34.1    39.7    206.4   488.4
-3            242.9   34.1    39.7    206.4   488.4
-
-Values are separated by tabs
-Each row has the same number of columns
-First column contains increasing values
-No missing values
-
+   
 
 ## Troubleshooting
 
@@ -104,10 +86,19 @@ Common issues and solutions:
    - Try reducing the DPI value
    - Ensure sufficient system memory is available
 
-## Contributing
+## 👨‍🔬 About the Author
 
-Feel free to submit issues and enhancement requests!
+**Dr. Kanaka K. K., PhD, ARS**  
+Scientist  
+School of Bioinformatics  
+[ICAR-Indian Institute of Agricultural Biotechnology, Ranchi](https://iiab.icar.gov.in/)
+> [Be like IIAB!:](https://www.researchgate.net/publication/379512649_ICAR-IIAB_Annual_Report-_2023) IIAB is like yogic center where all the sciences (Plant, Animal, Aquatic,Mibrobiology, IT) meet to address emerging issues in food production.
 
-## License
+## 🔎 Spy on me
+- [Google Scholar](https://scholar.google.com/citations?hl=en&user=0dQ7Sf8AAAAJ&view_op=list_works&sortby=pubdate)
+- [GitHub: kkokay07](https://github.com/kkokay07)
+- [ResearchGate](https://www.researchgate.net/profile/Kanaka-K-K/research)
+- [Institute Website](https://iiab.icar.gov.in/staff/dr-kanaka-k-k/)
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+  
